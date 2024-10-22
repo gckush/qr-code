@@ -4,25 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"><link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    body {
+      background-color: hsl(218, 44%, 22%);
+    }
+    div {
+      background-color: hsl(0, 0%, 100%);
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 320px;
+      text-align: center;
+      padding: 20px 15px 10px 15px ;
+    }
+    img {
+      width: 95%;
+    }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    p { text-align: center; font-family: Outfit; font-weight: 400; }
+    .boldHead { font-weight: 700; }
+    .rounded { border-radius: 25px; text-align: center; }
   </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">GK</a>.
+  <div class="rounded">
+    <img class="rounded" src="images/image-qr-code.png">
+    <p class="boldHead">
+      Improve your front-end skills by building projects
+    </p>
+    <p class="nonboldHead">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
   </div>
 </body>
 </html>
