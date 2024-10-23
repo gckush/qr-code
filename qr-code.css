@@ -8,18 +8,20 @@ div {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 320px;
+    width: 300px;
     text-align: center;
     padding: 20px 15px 10px 15px ;
 }
 img {
     width: 95%;
 }
-p { 
-    text-align: center; font-family: Outfit; font-weight: 400; 
+h1, p { 
+    text-align: center; 
+    font-family: Outfit; font-weight: 400; font-size: 15px;
+    padding: 5px 15px ;
 }
 .boldHead { 
-    font-weight: 700; 
+    font-weight: 700; font-size: 18px;
 }
 .rounded { 
     border-radius: 25px; text-align: center; 
